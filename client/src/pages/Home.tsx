@@ -516,6 +516,33 @@ export default function Home() {
 
                     <p>{project.description}</p>
 
+
+                    <a href={project.live}
+                    target="_blank"
+                        rel="noreferrer"
+                        className="button button-primary ">
+                        <button
+                      className="text-button"
+                      onClick={() => setSelected(project)}
+                    >
+                      Live Website<ArrowUpRight size={16} />
+                    </button>
+                    </a>
+
+                    <a href={project.github}
+                    target="_blank"
+                        rel="noreferrer"
+                        className="button button-ghost">
+                        <button
+                      className="text-button"
+                      onClick={() => setSelected(project)}
+                    >
+                      Github <ArrowUpRight size={16} />
+                    </button>
+                    </a>
+                    
+                    
+
                     <div className="tech-line">
                       {project.technologies.map((technology) => (
                         <span key={technology}>{technology}</span>

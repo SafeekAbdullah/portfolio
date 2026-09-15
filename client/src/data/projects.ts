@@ -12,8 +12,31 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+
+
   {
     id: 1,
+    title: "Real Estate Website",
+    category: "FRONTEND / WEB DESIGN",
+    description:
+      "A responsive real estate website displaying houses for sale, lands for sale, and houses for rent with prices and locations.",
+    technologies: ["HTML", "CSS"],
+    features: [
+      "House sale listings",
+      "Land sale listings",
+      "House rental listings",
+      "Property price information",
+      "Property location information",
+      "Responsive website layout"
+    ],
+    solution:
+      "The website provides a simple and clear interface for displaying real estate properties. HTML and CSS are used to organize property categories, prices, locations and listing information.",
+    github: "https://github.com/SafeekAbdullah/Property-expert",
+    live: "https://propertyexpertsales.vercel.app/",
+    accent: "#00D4FF"
+  },
+  {
+    id: 2,
     title: "E-Commerce Website for Clothing Store",
     category: "FULL-STACK / E-COMMERCE",
     description:
@@ -31,12 +54,12 @@ export const projects: Project[] = [
     ],
     solution:
       "The system combines a responsive frontend with PHP and MySQL to provide a complete e-commerce workflow. Customers can browse products, add items to the cart and place orders, while administrators can manage products and stock.",
-    github: "#",
-    live: "#",
+    github: "https://github.com/SafeekAbdullah/lookatme-dress-point",
+    live: "look@me.com",
     accent: "#D4FF00"
   },
   {
-    id: 2,
+    id: 3,
     title: "Student Management System",
     category: "PHP / MYSQL",
     description:
@@ -52,31 +75,11 @@ export const projects: Project[] = [
     ],
     solution:
       "The system uses PHP for application logic and MySQL for storing student, teacher and subject information. It simplifies the management of academic records and teacher-subject assignments.",
-    github: "#",
-    live: "#",
+    github: "https://github.com/SafeekAbdullah/Property-expert",
+    live: "students.com",
     accent: "#7C5CFF"
-  },
-  {
-    id: 3,
-    title: "Real Estate Website",
-    category: "FRONTEND / WEB DESIGN",
-    description:
-      "A responsive real estate website displaying houses for sale, lands for sale, and houses for rent with prices and locations.",
-    technologies: ["HTML", "CSS"],
-    features: [
-      "House sale listings",
-      "Land sale listings",
-      "House rental listings",
-      "Property price information",
-      "Property location information",
-      "Responsive website layout"
-    ],
-    solution:
-      "The website provides a simple and clear interface for displaying real estate properties. HTML and CSS are used to organize property categories, prices, locations and listing information.",
-    github: "#",
-    live: "#",
-    accent: "#00D4FF"
   }
+  
 ];
 
 export default projects;
