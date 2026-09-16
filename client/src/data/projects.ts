@@ -60,7 +60,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Student Management System",
+    title: "School Management System",
     category: "PHP / MYSQL",
     description:
       "A PHP and MySQL based system for managing student registration, teacher registration, and subject-wise teacher assignments.",
