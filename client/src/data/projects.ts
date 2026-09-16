@@ -75,7 +75,7 @@ export const projects: Project[] = [
     ],
     solution:
       "The system uses PHP for application logic and MySQL for storing student, teacher and subject information. It simplifies the management of academic records and teacher-subject assignments.",
-    github: "https://github.com/SafeekAbdullah/Property-expert",
+    github: "https://github.com/SafeekAbdullah/student-management-system",
     live: "students.com",
     accent: "#7C5CFF"
   }
